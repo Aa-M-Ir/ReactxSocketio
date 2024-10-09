@@ -1,0 +1,15 @@
+chats = [{
+    userName, 
+    texts:[{text_msg, time}]
+}]\
+
+
+
+chats = [{
+    userName, 
+    texts:[{text_msg, time}]
+}]
+
+
+
+, $push:{chats:{friend_name:obj.friend_name, texts:[]}}
